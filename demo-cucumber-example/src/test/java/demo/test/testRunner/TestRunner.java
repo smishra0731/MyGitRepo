@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
  
 
 @RunWith(Cucumber.class)
-@CucumberOptions(tags = {"@test001"}, features = "cucumber", monochrome = true, dryRun = false
+@CucumberOptions(tags = {"@Completed"}, features = "cucumber", monochrome = true, dryRun = false
 , strict = true, glue = "demo.test.testSteps", format = {
 		"pretty", "html:report/report.html","json:target/cucumber.json"})
 public class TestRunner {
